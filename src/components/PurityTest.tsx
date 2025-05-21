@@ -82,15 +82,15 @@ const PurityTest = () => {
       <ol className="list-decimal pl-6 space-y-2">
         {allQuestions.map((item) => (
           <li key={item.id} className="pb-1">
-            <div className="flex items-start">
+            <div className="flex items-center">
               <input
                 type="checkbox"
                 id={item.id}
                 checked={checkedItems.includes(item.id)}
                 onChange={() => handleItemToggle(item.id)}
-                className="mt-1 mr-2"
+                className=""
               />
-              <label htmlFor={item.id} className="cursor-pointer">
+              <label htmlFor={item.id} className="cursor-pointer ml-2">
                 {item.text}
               </label>
             </div>
