@@ -79,18 +79,18 @@ const PurityTest = () => {
 
   const FormContent = () => (
     <form onSubmit={handleSubmit} className="text-left p-4">
-      <ol className="list-decimal pl-6 space-y-2">
+      <ol className="list-decimal pl-0 space-y-2">
         {allQuestions.map((item) => (
           <li key={item.id} className="pb-1">
-            <div className="flex items-center">
+            <div className="flex items-start">
               <input
                 type="checkbox"
                 id={item.id}
                 checked={checkedItems.includes(item.id)}
                 onChange={() => handleItemToggle(item.id)}
-                className=""
+                className="mt-1 mr-10 lg:mr-2"
               />
-              <label htmlFor={item.id} className="cursor-pointer ml-2">
+              <label htmlFor={item.id} className="cursor-pointer">
                 {item.text}
               </label>
             </div>
