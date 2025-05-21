@@ -15,12 +15,12 @@ export default function Home() {
         <meta property="og:site_name" content="Insufferable Test" />
         <meta property="og:description" content="How chronically online are you?." />
         <meta property="og:url" content={"grandiose-five.vercel.app"} />
-        <meta property="og:image" content={`grandiose-five.vercel.app/images/cover.png`} />
-        <link rel="icon" href="/images/favicon.ico" />
+        <meta property="og:image" content={`grandiose-five.vercel.app/cover.png`} />
+        <link rel="icon" href="/favicon.ico" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Insufferable Test" />
         <meta name="twitter:description" content="How chronically online are you?" />
-        <meta name="twitter:image" content={`grandiose-five.vercel.app/images/cover.png`} />
+        <meta name="twitter:image" content={`grandiose-five.vercel.app/cover.png`} />
       </Head>
       <div className="container max-w-3xl px-4 py-6 mx-auto">
         <div className="max-w-3xl">
